@@ -13,8 +13,6 @@ Solo é um tema minimalista para [Ghost](https://github.com/TryGhost/Ghost) foca
 
 # Desenvolvimento
 
-Edition styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
-
 Os estilos de edição são compilados usando Gulp/PostCSS para preencher a futura especificação CSS. Você precisará ter [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) e [Gulp](https://gulpjs.com) instalados globalmente. Depois disso, a partir do diretório raiz do tema:
 
 ```bash
