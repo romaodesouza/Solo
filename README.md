@@ -1,38 +1,41 @@
-# Solo
+# Solo - Agora em Português/BR
 
-Solo is a minimal theme for [Ghost](https://github.com/TryGhost/Ghost) focused on showcasing the work of an individual writer or creator. This theme is highly customizable, with a few simple settings that allow you to quickly apply your own personal style to your site.
+Tema traduzido para Português/BR.
 
-**Demo: https://solo.ghost.io**
+Solo é um tema minimalista para [Ghost](https://github.com/TryGhost/Ghost) focado em destacar o trabalho de um escritor ou criador individual. Este tema é altamente personalizável, com algumas configurações simples que permitem aplicar rapidamente seu próprio estilo pessoal ao seu site.
 
-# Instructions
+**Demonstração: https://solo.ghost.io**
 
-1. [Download this theme](https://github.com/TryGhost/Solo/archive/main.zip)
-2. Log into Ghost, and go to the `Design` settings area to upload the zip file
+# Instruções
 
-# Development
+1. [Baixe este tema](https://github.com/romaodesouza/Solo/archive/main.zip)
+2. Faça login no Ghost e vá para a área de configurações `Design` para fazer o upload do arquivo zip
+
+# Desenvolvimento
 
 Edition styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
 
+Os estilos de edição são compilados usando Gulp/PostCSS para preencher a futura especificação CSS. Você precisará ter [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) e [Gulp](https://gulpjs.com) instalados globalmente. Depois disso, a partir do diretório raiz do tema:
+
 ```bash
-# Install
+# Instalar
 yarn
 
-# Run build & watch for changes
+# Executar a compilação e observar as mudanças
 yarn dev
 ```
+Agora você pode editar os arquivos `/assets/css/`, que serão compilados automaticamente para `/assets/built/`.
 
-Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
-
-The `zip` Gulp task packages the theme files into `dist/solo.zip`, which you can then upload to your site.
+A tarefa `zip` do Gulp empacota os arquivos do tema em `dist/solo.zip`, que você pode então fazer upload para o seu site.
 
 ```bash
 yarn zip
 ```
 
-# Contribution
+# Contribuição
 
-This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
+Este repositório é sincronizado automaticamente com o monorepo [TryGhost/Themes](https://github.com/TryGhost/Themes). Se você deseja contribuir ou levantar uma questão, vá para o repositório principal [TryGhost/Themes](https://github.com/TryGhost/Themes), onde nossos temas oficiais são desenvolvidos.
 
-## Copyright & License
+## Direitos autorais & Licença
 
-Copyright (c) 2013-2023 Ghost Foundation - Released under the [MIT license](LICENSE).
+Direitos autorais © 2013-2023 Ghost Foundation - Lançado sob a licença [MIT license](LICENSE).
