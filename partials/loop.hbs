@@ -27,9 +27,9 @@
                 {{/if}}
             {{/match}}
             <footer class="gh-card-meta">
-                <time class="gh-card-date" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
+                <time class="gh-card-date" datetime="{{date format="DD-MM-YYYY"}}">{{date}}</time>
                 {{#if reading_time}}
-                    <span class="gh-card-length">{{reading_time}}</span>
+                    <span class="gh-card-length">{{reading_time seconds=(t "< 1 min de leitura") minute=(t "1 min de leitura") minutes=(t "% min de leitura")}}</span>
                 {{/if}}
                 {{#unless access}}
                 {{^has visibility="public"}}
@@ -44,7 +44,7 @@
                 {{/has}}
                 {{/unless}}
                 {{#if @site.comments_enabled}}
-                    {{comment_count class="gh-card-comments"}}
+                    {{comment_count singular="comentário" plural="comentários" autowrap="false" class="gh-card-comments"}}
                 {{/if}}
             </footer>
         </div>
